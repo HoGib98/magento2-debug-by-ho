@@ -30,4 +30,7 @@ By default, the method will not work on production mode unless intentionally ena
 MIT
 
 **With BACK END**
-use : Ho\Firephp\Kint\Kint::dd();
+
+```
+Ho\Firephp\Kint\Kint::dd();
+```

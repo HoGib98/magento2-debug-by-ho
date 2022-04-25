@@ -1,0 +1,24 @@
+{
+  "name": "ho/magento2-debug-by-ho",
+  "description": "Magento Fire PHP",
+  "type": "magento2-module",
+  "license": "MIT",
+  "keywords": ["magento2", "firephp", "magento firephp"],
+  "authors": [
+    {
+      "name": "Ho PHP",
+      "email": "gibhud98@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Ho\\Firephp\\": ""
+    },
+    "files": [
+      "registration.php",
+      "log.php"
+    ]
+  }
+}

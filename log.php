@@ -18,4 +18,9 @@ if (!function_exists('hoLog')) {
             ->get(\Ho\Firephp\Logger::class)
             ->debug($message, $context);
     }
+
+    function hoLogBE($data)
+    {
+        \Ho\Firephp\Kint\Kint::dd($data);
+    }
 }

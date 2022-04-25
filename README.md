@@ -32,5 +32,5 @@ MIT
 **With BACK END**
 
 ```
-Ho\Firephp\Kint\Kint::dd();
+hoLogBE($data);
 ```
